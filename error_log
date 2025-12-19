@@ -1,0 +1,61 @@
+[26-Dec-2024 09:35:01 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[27-Dec-2024 09:35:08 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[02-Jan-2025 09:35:38 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[03-Jan-2025 09:35:04 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[09-Jan-2025 09:37:52 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[10-Jan-2025 05:01:10 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[16-Jan-2025 09:36:11 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[17-Jan-2025 09:35:54 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[23-Jan-2025 09:37:00 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[24-Jan-2025 09:36:52 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[30-Jan-2025 09:35:08 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[31-Jan-2025 09:35:13 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[06-Feb-2025 09:36:10 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[07-Feb-2025 09:36:23 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[12-Feb-2025 09:39:48 UTC] PHP Warning:  fileperms(): stat failed for /home/cardiocareco/public_html/index.php in /home/cardiocareco/public_html/wp-admin/includes/file.php on line 2211
+[30-Mar-2025 19:00:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/cardiocareco/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/wp-settings.php on line 33
+[02-Apr-2025 02:12:25 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:12:25 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:12:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:12:28 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:12:28 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:12:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:08 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:08 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:11 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:11 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:13:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:14:07 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:14:08 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:14:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:15:48 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:15:48 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:15:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:17:01 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:17:01 UTC] PHP Warning:  require(/home/cardiocareco/public_html/wp-blog-header.php): Failed to open stream: No such file or directory in /home/cardiocareco/public_html/index.php on line 17
+[02-Apr-2025 02:17:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cardiocareco/public_html/wp-blog-header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/cardiocareco/public_html/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cardiocareco/public_html/index.php on line 17
