@@ -115,7 +115,7 @@ body {
   line-height: 1.7;
   color: #777777;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
   background-attachment: fixed;
@@ -175,7 +175,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Droid Serif', sans-serif;
+  font-family:  'Poppins', sans-serif;
   font-weight: 700;
   line-height: 1.42857143;
   color: #111111;
@@ -242,7 +242,7 @@ h6,
 h5,
 h6,
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family:  'Poppins', sans-serif;
 }
 p {
   line-height: 1.7;
@@ -1030,7 +1030,7 @@ section > .container-fluid {
 .nav-pills li.active > a:hover,
 .nav-pills li.active > a:focus {
   background: #d3d3d3;
-  color: #777777;
+  color: #000000;
 }
 /* -------- Header Nav ---------- */
 .header-nav {
@@ -6864,7 +6864,7 @@ blockquote p {
  * -----------------------------------------------
 */
 .footer a {
-  color: #808080;
+  color: #FFF;
 }
 .footer a:focus,
 .footer a:hover,
