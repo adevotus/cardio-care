@@ -264,7 +264,7 @@
   <div class="main-content">
 
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/medical-03.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/cardio-16.jpg">
       <div class="container pt-70 pb-50">
         <!-- Section Content -->
         <div class="section-content">
@@ -398,17 +398,15 @@
   <!-- end main-content -->
   
   <!-- Footer -->
-  <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
-    <div class="container pt-70 pb-40">
+  <footer id="footer" class="footer pb-0" data-bg-color="#000">
+    <div class="container pt-90 pb-60">
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="widget dark"> <img alt="" src="images/logo-wide-white.png">
-            <p class="font-12 mt-10 mb-10">Our experienced staff is committed to providing comprehensive quality cardiovascular care in a personable, professional, compassionate manner.</p>
-            <a class="btn btn-default btn-transparent btn-xs btn-flat mt-5" href="about-us.html">Read more</a>
+            <p class="font-12 mt-10 mb-10" style="color: #fff;">Our experienced staff is committed to providing comprehensive quality cardiovascular care in a personable, professional, compassionate manner.</p>
             <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm mt-20">
               <li><a href="https://facebook.com/cardiocaretz" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://x.com/cardiocaretz" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-skype"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube"></i></a></li>
               <li><a href="https://instagram.com/cardiocaretz/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
@@ -417,7 +415,7 @@
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h5 class="widget-title line-bottom-theme-colored-2">Latest News</h5>
-            <div class="latest-posts">
+            <div class="latest-posts" style="color: #fff;">
               <article class="post media-post clearfix pb-0 mb-10">
                 <a class="post-thumb" href="services.html"><img src="images/80x55a.jpg" alt=""></a>
                 <div class="post-right">
@@ -444,57 +442,30 @@
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Quick Contact</h5>
-            <form id="footer_quick_contact_form" name="footer_quick_contact_form" class="quick-contact-form" action="includes/quickcontact.php" method="post">
-              <div class="form-group">
-                <input name="form_email" class="form-control" type="text" required="" placeholder="Enter Email">
-              </div>
-              <div class="form-group">
-                <textarea name="form_message" class="form-control" required="" placeholder="Enter Message" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-default btn-transparent btn-xs btn-flat mt-0" data-loading-text="Please wait...">Send Message</button>
-              </div>
-            </form>
+            <h5 class="widget-title line-bottom-theme-colored-2">Quick  Links</h5>
+           
+           <div class="opening-hours" style="color: #fff;">
+              <ul class="list list-border">
+                <li class="clearfix"> <span><i class="fa fa-arrow-circle-o-right mr-5"></i> Abouts</span></li>
+                <li class="clearfix"> <span><i class="fa fa-arrow-circle-o-right mr-5"></i> Services</span></li>
+                <li class="clearfix"> <span><i class="fa fa-arrow-circle-o-right mr-5"></i> Contact</span></li>
+                <li class="clearfix"> <span><i class="fa fa-arrow-circle-o-right mr-5"></i> Doctors</span></li>
+                 <li class="clearfix"> <span><i class="fa fa-arrow-circle-o-right mr-5"></i> Blogs</span></li>
 
-            <!-- Quick Contact Form Validation-->
-            <script type="text/javascript">
-              $("#footer_quick_contact_form").validate({
-                submitHandler: function(form) {
-                  var form_btn = $(form).find('button[type="submit"]');
-                  var form_result_div = '#form-result';
-                  $(form_result_div).remove();
-                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                  var form_btn_old_msg = form_btn.html();
-                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                  $(form).ajaxSubmit({
-                    dataType:  'json',
-                    success: function(data) {
-                      if( data.status == 'true' ) {
-                        $(form).find('.form-control').val('');
-                      }
-                      form_btn.prop('disabled', false).html(form_btn_old_msg);
-                      $(form_result_div).html(data.message).fadeIn('slow');
-                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                    }
-                  });
-                }
-              });
-            </script>
+              </ul>
+            </div>
+            
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h5 class="widget-title line-bottom-theme-colored-2">Opening Hours</h5>
-            <div class="opening-hours">
+            <div class="opening-hours" style="color: #fff;">
               <ul class="list list-border">
-                <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Mond - Tuesday :</span>
+                <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Mond - Thur :</span>
                   <div class="value pull-right"> 08.30 am - 05.00 pm </div>
                 </li>
-                <li class="clearfix"> <span class="text-theme-color-2"><i class="fa fa-clock-o mr-5"></i> Wednes - Thurs </span>
-                  <div class="value pull-right text-white"> 08.30 am - 05.00 pm </div>
-                </li>
+  
                 <li class="clearfix"> <span><i class="fa fa-clock-o mr-5"></i> Friday - Sat :</span>
                   <div class="value pull-right"> 08.00 am - 04.30 pm </div>
                 </li>
@@ -503,9 +474,23 @@
                 </li>
               </ul>
             </div>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" name="email" class="form-control" 
+                           placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn  btn-sm btn-block" style="background-color: #021e59 !important; color: #fff !important;">
+                Subscribe
+            </button>
+        </form>
           </div>
         </div>
       </div>
+  
     </div>
     <div class="container-fluid bg-theme-colored p-20">
       <div class="row text-center">

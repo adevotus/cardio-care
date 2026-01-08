@@ -15,7 +15,7 @@ COLOR CODE: #EE163B
 }
 /* background-theme-color */
 .bg-theme-colored {
-  background-color: #EE163B !important;
+  background-color: #021e59 !important;
 }
 
 
@@ -33,13 +33,13 @@ COLOR CODE: #EE163B
   background-color: #00c0ec !important;
 }
 .bg-theme-colored-darker2 {
-  background-color: #e40031 !important;
+  background-color: #021e59 !important;
 }
 .bg-theme-colored-darker3 {
-  background-color: #da0027 !important;
+  background-color: #021e59 !important;
 }
 .bg-theme-colored-darker4 {
-  background-color: #d0001d !important;
+  background-color: #021e59 !important;
 }
 
 
@@ -83,7 +83,7 @@ COLOR CODE: #EE163B
 }
 /* Custom overlay */
 .testimonial.style1 .comment {
-  background-color: rgba(238, 22, 59, 0.6) !important;
+  background-color: rgba(2, 29, 88, 0.6) !important;
 }
 .icon-box.box-style1.practice-style3:hover .icon-wrapper,
 .zeus .tp-bullet::after {
@@ -127,20 +127,20 @@ COLOR CODE: #EE163B
 .pricing-table.style1 .pricing-icon i,
 .blog-posts .post.style1 .entry-header .entry-date.entry-date-absolute,
 .title-dots span {
-  background: #EE163B;
+  background: #021d58;
 }
 .cd-timeline-simple .cd-timeline-block .cd-timeline-img {
-  background: #EE163B !important;
+  background: #021d58 !important;
 }
 .services-tab .nav-tabs > li.active > a,
 .services-tab .nav-tabs > li.active > a:hover,
 .services-tab .nav-tabs > li.active > a:focus,
 .services-tab .nav-tabs > li a:hover,
 .services-tab .nav-tabs > li a:focus {
-  background-color: #EE163B !important;
+  background-color: #021d58 !important;
 }
 .ui-state-highlight {
-  background: #EE163B !important;
+  background: #021d58 !important;
   color: #fff !important;
 }
 /*
@@ -190,7 +190,12 @@ ul.list.theme-colored.check li:before,
 .menuzord.blue .menuzord-menu > li.active > a,
 .menuzord.blue .menuzord-menu > li:hover > a,
 .menuzord.blue .menuzord-menu ul.dropdown li:hover > a {
-  background-color: #c30e2d;
+  color: #021e59e6;
+  background-color: #fff;
+  border-radius: 10px;
+ 
+  font-weight: 600;
+  
 }
 /*
  * border: theme-color
@@ -203,21 +208,21 @@ ul.list.theme-colored.check li:before,
 .pager.theme-colored a,
 .owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-prev,
 .owl-carousel.owl-nav-top .owl-controls .owl-nav .owl-next {
-  border: 1px solid #EE163B;
+  border: 1px solid #021d58;
 }
 .border-theme-colored,
 .owl-theme .owl-dots .owl-dot span {
-  border-color: #EE163B;
+  border-color: #021d58;
 }
 .icon-box.box-style1.practice-style3:hover .icon-wrapper::after {
-  border-color: #EE163B transparent transparent;
+  border-color: #021d58 transparent transparent;
 }
 /* border-left-color */
 blockquote.theme-colored {
-  border-left: 3px solid #EE163B;
+  border-left: 3px solid #021d58;
 }
 blockquote.bg-theme-colored {
-  border-left: 3px solid #c30e2d;
+  border-left: 3px solid #021d58;
   color: #fff;
 }
 blockquote.bg-theme-colored footer {
@@ -267,9 +272,9 @@ blockquote.gray.bg-theme-colored footer {
  * -----------------------------------------------
 */
 .btn-default.btn-theme-colored {
-  color: #EE163B;
+  color: #021e59;
   background-color: #fff;
-  border-color: #EE163B;
+  border-color: #021e59;
 }
 .btn-default.btn-theme-colored:focus,
 .btn-default.btn-theme-colored.focus {

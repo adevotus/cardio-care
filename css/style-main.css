@@ -1051,7 +1051,9 @@ section > .container-fluid {
 }
 .menuzord-menu > li > a {
   font-size: 13px;
-  color: #333333;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Pappins',sans-serif;
 }
 .menuzord .menuzord-menu > li.active > a i,
 .menuzord .menuzord-menu > li:hover > a i,
